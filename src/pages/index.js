@@ -1,6 +1,6 @@
 import React from 'react';
+import { Link } from 'gatsby';
 import { Helmet } from 'react-helmet';
-import ComingSoon from '../components/ComingSoon';
 
 export default () => (
 	<React.Fragment>
@@ -8,6 +8,9 @@ export default () => (
 			<meta charSet="utf-8" />
 			<title>Allotment Planner</title>
 		</Helmet>
-		<ComingSoon />
+		<div>
+			<h1>Landing page</h1>
+			<Link to="/blog">Check the blog</Link>
+		</div>
 	</React.Fragment>
 );
