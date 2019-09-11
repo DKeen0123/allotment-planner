@@ -1,4 +1,5 @@
 import React from 'react';
+import { Helmet } from 'react-helmet';
 import ComingSoon from '../components/ComingSoon';
 
 export default () => (
